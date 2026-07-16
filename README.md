@@ -3,21 +3,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portfolio Académique — AYAOH Essodomna Jules</title>
+<title>Portfolio Académique — AYAOH Essodomna Jules — Semestre 6</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
 <style>
   :root {
-    --teal: #0F6E56;
-    --teal-light: #1D9E75;
-    --teal-pale: #E1F5EE;
-    --teal-mid: #5DCAA5;
-    --charcoal: #2C2C2A;
-    --charcoal-mid: #5F5E5A;
-    --charcoal-light: #888780;
-    --sand: #F1EFE8;
-    --sand-dark: #D3D1C7;
+    --teal: #1749B8;
+    --teal-light: #2F6FE0;
+    --teal-pale: #EAF1FF;
+    --teal-mid: #6E9CF2;
+    --charcoal: #0B1E42;
+    --charcoal-mid: #4C5C7C;
+    --charcoal-light: #93A2C0;
+    --sand: #F3F6FD;
+    --sand-dark: #D3DEF5;
     --white: #FFFFFF;
-    --accent: #0F6E56;
+    --accent: #1749B8;
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -51,7 +51,7 @@
     position: absolute;
     top: -80px; right: -80px;
     width: 340px; height: 340px;
-    border: 1px solid rgba(93,202,165,0.18);
+    border: 1px solid rgba(110,156,242,0.22);
     border-radius: 50%;
   }
   .cover::after {
@@ -59,7 +59,7 @@
     position: absolute;
     bottom: -60px; left: -60px;
     width: 260px; height: 260px;
-    border: 1px solid rgba(93,202,165,0.12);
+    border: 1px solid rgba(110,156,242,0.15);
     border-radius: 50%;
   }
 
@@ -383,7 +383,7 @@
     line-height: 1.5;
   }
 
-  /* ── OVERVIEW TABLE (S5 summary) ── */
+  /* ── OVERVIEW TABLE (S6 summary) ── */
   .ue-block {
     margin-bottom: 2rem;
   }
@@ -399,6 +399,35 @@
     font-weight: 600;
     margin-bottom: 0.75rem;
   }
+
+  /* ── STAGE INFO CARD ── */
+  .info-card {
+    background: var(--white);
+    border: 1px solid var(--sand-dark);
+    padding: 1.75rem;
+    margin-top: 1.5rem;
+  }
+
+  .info-row {
+    display: flex;
+    gap: 1rem;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid var(--sand);
+    font-size: 0.88rem;
+  }
+  .info-row:last-child { border-bottom: none; }
+
+  .info-label {
+    min-width: 150px;
+    color: var(--teal);
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-size: 0.72rem;
+    padding-top: 0.15rem;
+  }
+
+  .info-value { color: var(--charcoal-mid); }
 
   /* ── SIGNATURE ── */
   .signature-block {
@@ -436,13 +465,13 @@
 
 <!-- COVER -->
 <div class="cover">
-  <div class="cover-badge">Portfolio Académique · Semestre 5</div>
+  <div class="cover-badge">Portfolio Académique · Semestre 6</div>
   <h1>AYAOH<br>Essodomna Jules</h1>
   <div class="cover-name-line"></div>
   <p class="cover-sub">Licence Professionnelle — 3ème Année</p>
   <p class="cover-sub">Systèmes et Réseaux Informatiques</p>
   <p class="cover-institution">ESIG Global Success</p>
-  <p class="cover-geo">Lomé, Togo · Avril 2026</p>
+  <p class="cover-geo">Lomé, Togo · [MOIS À COMPLÉTER] 2026</p>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -469,22 +498,30 @@
       </a>
       <a class="toc-item" href="#section4">
         <div class="toc-num">4</div>
-        <div class="toc-label">Récapitulatif Semestre 5</div>
+        <div class="toc-label">Récapitulatif Semestre 6</div>
       </a>
       <a class="toc-item" href="#section5">
         <div class="toc-num">5</div>
-        <div class="toc-label">Analyse détaillée par UE</div>
+        <div class="toc-label">Analyse détaillée par UE et SAÉ</div>
       </a>
       <a class="toc-item" href="#section6">
         <div class="toc-num">6</div>
-        <div class="toc-label">Bilan des compétences</div>
+        <div class="toc-label">Stage professionnel — GO-NTIC</div>
       </a>
       <a class="toc-item" href="#section7">
         <div class="toc-num">7</div>
-        <div class="toc-label">Axes de progression</div>
+        <div class="toc-label">Mémoire de fin de parcours</div>
       </a>
       <a class="toc-item" href="#section8">
         <div class="toc-num">8</div>
+        <div class="toc-label">Bilan des compétences</div>
+      </a>
+      <a class="toc-item" href="#section9">
+        <div class="toc-num">9</div>
+        <div class="toc-label">Axes de progression</div>
+      </a>
+      <a class="toc-item" href="#section10">
+        <div class="toc-num">10</div>
         <div class="toc-label">Conclusion générale</div>
       </a>
     </div>
@@ -502,16 +539,12 @@
       </div>
     </div>
     <div class="divider"></div>
-    <p>Je m'appelle <strong>AYAOH Essodomna Jules</strong>, actuellement en troisième et dernière année de Licence Professionnelle, spécialité Systèmes et Réseaux Informatiques, à l'ESIG Global Success à Lomé. Mon parcours dans l'informatique a commencé bien avant les bancs de la licence : dès le lycée, j'ai développé une curiosité naturelle pour la manière dont les machines communiquent entre elles, pour les protocoles qui permettent à Internet de fonctionner, et pour les mécanismes qui protègent les données que nous confions aux réseaux chaque jour.</p>
-    <p>Après l'obtention de mon baccalauréat, j'ai fait le choix délibéré de m'orienter vers une formation professionnalisante plutôt qu'une voie purement académique. Ce choix reflète ma conviction que, dans le domaine des réseaux et de la cybersécurité, la pratique et la mise en situation réelle sont aussi importantes que la théorie.</p>
+    <p>Je m'appelle <strong>AYAOH Essodomna Jules</strong>, actuellement en troisième et dernière année de Licence Professionnelle, spécialité Systèmes et Réseaux Informatiques, à l'ESIG Global Success à Lomé. Le Semestre 6 marque l'aboutissement de ce parcours : il combine les derniers enseignements théoriques avec une mise en situation professionnelle réelle, à travers un stage en entreprise et la rédaction d'un mémoire de fin de parcours.</p>
+    <p>[À COMPLÉTER : ajouter ici toute évolution personnelle depuis le Semestre 5 — nouvelles motivations, bilan de la première partie de l'année académique, etc.]</p>
     <div class="pull-quote">
-      « Ce portfolio est le reflet de mon engagement : pas seulement des notes à présenter, mais une trajectoire à tracer. »
+      « Le Semestre 6 n'est plus seulement un semestre de cours : c'est celui où la formation rencontre le terrain. »
     </div>
-    <p>Au fil des cinq semestres traversés, j'ai progressivement construit une compréhension globale des infrastructures informatiques : de l'architecture physique des réseaux locaux jusqu'aux enjeux de sécurité avancée, en passant par l'administration des systèmes d'exploitation et la gestion de projets informatiques.</p>
-
-    <h3 style="font-family:'Playfair Display',serif; margin: 2rem 0 0.75rem; color: var(--charcoal); font-size: 1.1rem;">Motivations et engagement personnel</h3>
-    <p>Ce qui m'anime profondément dans ce domaine, c'est l'idée que les réseaux informatiques sont devenus l'infrastructure invisible sur laquelle repose l'ensemble de la vie économique, sociale et institutionnelle. En Afrique, et au Togo en particulier, la transformation numérique est en marche. Je veux faire partie des professionnels qui construisent, sécurisent et maintiennent ces infrastructures.</p>
-    <p>En dehors des cours, je pratique régulièrement sur des environnements virtuels — simulation de configurations réseau avec Packet Tracer, reproduction de scénarios d'attaque et de défense en sandbox, documentation technique sur les nouvelles normes de sécurité.</p>
+    <p>Ce semestre se distingue par son ouverture vers le monde professionnel : au-delà des unités d'enseignement techniques et transversales, j'effectue actuellement un stage au sein de l'entreprise <strong>GO-NTIC</strong>, une expérience qui vient directement nourrir mon mémoire de fin de parcours et confirmer mon orientation vers la sécurité des systèmes d'information.</p>
   </div>
 </div>
 
@@ -527,11 +560,8 @@
     </div>
     <div class="divider"></div>
     <p><strong>L'ESIG Global Success</strong> est un établissement d'enseignement supérieur privé situé à Lomé, capitale du Togo. Il propose des formations de niveau licence et master dans les domaines de l'informatique, des télécommunications, du management et de la gestion, avec une approche pédagogique orientée vers la professionnalisation.</p>
-    <p>La filière Systèmes et Réseaux Informatiques (SRI) est structurée en six semestres répartis sur trois années. Elle couvre l'ensemble du spectre des compétences attendues d'un technicien réseau et sécurité : conception d'architectures réseau, administration des systèmes d'exploitation (Windows Server, Linux), sécurité des systèmes d'information, réseaux mobiles et émergents, ainsi que la conduite de projets informatiques.</p>
-
-    <h3 style="font-family:'Playfair Display',serif; margin: 2rem 0 0.75rem; color: var(--charcoal); font-size: 1.1rem;">Environnement de formation</h3>
-    <p>Les salles informatiques de l'établissement sont équipées de postes permettant de simuler des architectures réseaux multi-couches. Les étudiants ont accès à des outils de simulation professionnels — <strong>Cisco Packet Tracer</strong>, <strong>GNS3</strong>, <strong>VMware</strong> — ainsi qu'à des environnements de test de pénétration dans le cadre des cours de sécurité. L'encadrement est assuré par des enseignants-chercheurs et des professionnels en activité.</p>
-    <p>Le système d'évaluation intègre des écrits, des travaux pratiques, des projets tutorisés et des <strong>Situations d'Apprentissage et d'Évaluation (SAÉ)</strong> qui placent l'étudiant dans des contextes professionnels simulés.</p>
+    <p>Le Semestre 6, dernier semestre de la Licence Professionnelle SRI, est structuré différemment des semestres précédents : la part des enseignements transversaux (entrepreneuriat, gestion, droit, culture d'entreprise) y est plus importante, en préparation à l'insertion professionnelle, et le stage en entreprise y occupe une place centrale, encadré par un tuteur académique et un tuteur professionnel.</p>
+    <p>[À COMPLÉTER : préciser si un élément particulier de l'établissement est propre au Semestre 6 — nouveau responsable pédagogique, modalités spécifiques de soutenance du mémoire, etc.]</p>
   </div>
 </div>
 
@@ -546,12 +576,12 @@
       </div>
     </div>
     <div class="divider"></div>
-    <p>Ce portfolio a été rédigé dans le cadre du module <strong>PORTSRI4 — Démarche portfolio</strong>, constituant l'une des évaluations du cinquième semestre de la Licence Professionnelle SRI. Mais au-delà de l'obligation académique, j'ai choisi de l'aborder comme un exercice sincère d'introspection et de bilan.</p>
-    <p>Le semestre 5 est dense. Il fait coexister des modules de haut niveau technique — la sécurité des réseaux, les systèmes radio mobiles, les vulnérabilités web, la cryptographie — avec des projets transversaux qui exigent de mobiliser simultanément des compétences techniques, organisationnelles et relationnelles. C'est peut-être le semestre le plus exigeant de ma formation, et c'est aussi celui dont je tire le plus d'enseignements.</p>
+    <p>Ce portfolio prolonge la démarche entamée au Semestre 5, dans le cadre du module de démarche portfolio. Il couvre un semestre d'une nature différente : moins dense en volume horaire de cours magistraux, mais bien plus exigeant en autonomie, puisqu'il fait coexister le suivi des dernières unités d'enseignement, un stage en entreprise à temps partagé, et la rédaction d'un mémoire de fin de parcours.</p>
+    <p>Au moment de la rédaction de ce document, les résultats des modules du Semestre 6 ne sont pas encore disponibles. Ce portfolio se concentre donc sur la description des enseignements suivis, sur le contenu du stage en cours à GO-NTIC, et sur l'état d'avancement du mémoire. Il sera complété au fur et à mesure de la publication des notes.</p>
     <div class="pull-quote">
-      « Je présente mes résultats sans les embellir : certains reflètent un travail solide, d'autres témoignent d'un apprentissage en cours. L'honnêteté me semble être la première qualité d'un portfolio professionnel. »
+      « À défaut de notes à ce stade, ce portfolio documente le travail engagé — le stage, le mémoire, les enseignements suivis — plutôt que son seul résultat chiffré. »
     </div>
-    <p>Ce document s'adresse à mes enseignants, à d'éventuels recruteurs, mais aussi — et peut-être avant tout — à moi-même. Il me permettra, dans quelques années, de me rappeler qui j'étais au moment d'achever cette licence, ce que j'avais compris, ce que je cherchais à construire.</p>
+    <p>[À COMPLÉTER : ajouter une phrase personnelle sur l'état d'esprit à l'entame de ce dernier semestre de licence.]</p>
   </div>
 </div>
 
@@ -562,108 +592,91 @@
       <div class="section-num">04</div>
       <div class="section-title-block">
         <div class="sub">Vue d'ensemble</div>
-        <h2>Récapitulatif des modules du Semestre 5</h2>
+        <h2>Récapitulatif des modules du Semestre 6</h2>
       </div>
     </div>
     <div class="divider"></div>
+    <p style="margin-bottom: 1.5rem;">Les notes de ce semestre n'ont pas encore été publiées au moment de la rédaction de ce document. L'ensemble des modules est donc présenté à l'état « en attente ».</p>
 
     <div class="ue-block">
-      <div class="ue-label">UE Spécialité</div>
+      <div class="ue-label">SAÉ — Situations d'Apprentissage et d'Évaluation</div>
       <div class="module-grid">
-        <div class="module-card">
-          <div class="module-code">INF 1595</div>
-          <div class="module-title">Concepts, optimisation et réseaux émergents (CCNA4)</div>
+        <div class="module-card pending">
+          <div class="module-code">SAÉ 6.1</div>
+          <div class="module-title">Réponse à un incident</div>
           <div class="module-note"><span class="note-value pending">En attente</span></div>
-        </div>
-        <div class="module-card">
-          <div class="module-code">1INF 1527</div>
-          <div class="module-title">Sécurité et performance</div>
-          <div class="module-note"><span class="note-value">12,30</span><span style="font-size:0.75rem; color:var(--charcoal-light); margin-left:0.3rem;">/20</span></div>
-          <div class="note-bar-wrap"><div class="note-bar" style="width:61.5%"></div></div>
         </div>
         <div class="module-card pending">
-          <div class="module-code">2INF 1527</div>
-          <div class="module-title">Supervision</div>
+          <div class="module-code">SAÉ 6.2</div>
+          <div class="module-title">Réagir face à une cyber-attaque</div>
           <div class="module-note"><span class="note-value pending">En attente</span></div>
         </div>
-        <div class="module-card">
-          <div class="module-code">1INF 1526</div>
-          <div class="module-title">Les systèmes radio mobiles</div>
-          <div class="module-note"><span class="note-value">12,00</span><span style="font-size:0.75rem; color:var(--charcoal-light); margin-left:0.3rem;">/20</span></div>
-          <div class="note-bar-wrap"><div class="note-bar" style="width:60%"></div></div>
+        <div class="module-card pending">
+          <div class="module-code">SAÉ 6.3</div>
+          <div class="module-title">Réaliser une veille technologique</div>
+          <div class="module-note"><span class="note-value pending">En attente</span></div>
         </div>
-        <div class="module-card">
-          <div class="module-code">2INF 1526</div>
-          <div class="module-title">Les réseaux 4G (LTE)</div>
-          <div class="module-note"><span class="note-value">10,60</span><span style="font-size:0.75rem; color:var(--charcoal-light); margin-left:0.3rem;">/20</span></div>
-          <div class="note-bar-wrap"><div class="note-bar" style="width:53%"></div></div>
+        <div class="module-card pending">
+          <div class="module-code">SAÉ 6.4</div>
+          <div class="module-title">Méthodologie de rédaction de mémoire pro — Partie I</div>
+          <div class="module-note"><span class="note-value pending">En attente</span></div>
+        </div>
+        <div class="module-card pending">
+          <div class="module-code">SAÉ 6.5</div>
+          <div class="module-title">Méthodologie de rédaction de mémoire pro — Partie II</div>
+          <div class="module-note"><span class="note-value pending">En attente</span></div>
         </div>
       </div>
     </div>
 
     <div class="ue-block">
-      <div class="ue-label">UE Complémentaire</div>
+      <div class="ue-label">UE — Unités d'Enseignement transversales</div>
       <div class="module-grid">
-        <div class="module-card">
-          <div class="module-code">1INF 1522</div>
-          <div class="module-title">Administration système Windows</div>
-          <div class="module-note"><span class="note-value" style="color: var(--teal);">16,00</span><span style="font-size:0.75rem; color:var(--charcoal-light); margin-left:0.3rem;">/20</span></div>
-          <div class="note-bar-wrap"><div class="note-bar" style="width:80%; background:var(--teal)"></div></div>
-        </div>
         <div class="module-card pending">
-          <div class="module-code">2INF 1522</div>
-          <div class="module-title">Administration système Linux</div>
+          <div class="module-code">UE 6.1</div>
+          <div class="module-title">Initiation à l'entrepreneuriat</div>
           <div class="module-note"><span class="note-value pending">En attente</span></div>
         </div>
-        <div class="module-card">
-          <div class="module-code">1INF 1525</div>
-          <div class="module-title">Bases de la sécurité informatique</div>
-          <div class="module-note"><span class="note-value" style="color: var(--teal);">16,90</span><span style="font-size:0.75rem; color:var(--charcoal-light); margin-left:0.3rem;">/20</span></div>
-          <div class="note-bar-wrap"><div class="note-bar" style="width:84.5%; background:var(--teal)"></div></div>
+        <div class="module-card pending">
+          <div class="module-code">UE 6.2</div>
+          <div class="module-title">Propriété intellectuelle</div>
+          <div class="module-note"><span class="note-value pending">En attente</span></div>
         </div>
-        <div class="module-card">
-          <div class="module-code">2INF 1525</div>
-          <div class="module-title">Initiation à la cryptographie</div>
-          <div class="module-note"><span class="note-value">11,00</span><span style="font-size:0.75rem; color:var(--charcoal-light); margin-left:0.3rem;">/20</span></div>
-          <div class="note-bar-wrap"><div class="note-bar" style="width:55%"></div></div>
+        <div class="module-card pending">
+          <div class="module-code">UE 6.3</div>
+          <div class="module-title">Culture d'entreprise</div>
+          <div class="module-note"><span class="note-value pending">En attente</span></div>
         </div>
-        <div class="module-card">
-          <div class="module-code">3INF 1595</div>
-          <div class="module-title">Vulnérabilités des sites web et des applications</div>
-          <div class="module-note"><span class="note-value" style="color: var(--teal);">17,00</span><span style="font-size:0.75rem; color:var(--charcoal-light); margin-left:0.3rem;">/20</span></div>
-          <div class="note-bar-wrap"><div class="note-bar" style="width:85%; background:var(--teal)"></div></div>
+        <div class="module-card pending">
+          <div class="module-code">UE 6.4</div>
+          <div class="module-title">Gestion</div>
+          <div class="module-note"><span class="note-value pending">En attente</span></div>
+        </div>
+        <div class="module-card pending">
+          <div class="module-code">UE 6.5</div>
+          <div class="module-title">Économie</div>
+          <div class="module-note"><span class="note-value pending">En attente</span></div>
+        </div>
+        <div class="module-card pending">
+          <div class="module-code">UE 6.6</div>
+          <div class="module-title">Droit de l'informatique</div>
+          <div class="module-note"><span class="note-value pending">En attente</span></div>
         </div>
       </div>
     </div>
 
     <div class="ue-block">
-      <div class="ue-label">SAÉ &amp; Projets</div>
+      <div class="ue-label">Stage &amp; Mémoire</div>
       <div class="module-grid">
         <div class="module-card pending">
-          <div class="module-code">SAÉ501</div>
-          <div class="module-title">Concevoir, réaliser et présenter une solution technique</div>
-          <div class="module-note"><span class="note-value pending">En attente</span></div>
-        </div>
-        <div class="module-card pending">
-          <div class="module-code">SAÉ502</div>
-          <div class="module-title">Piloter un projet informatique</div>
-          <div class="module-note"><span class="note-value pending">En attente</span></div>
-        </div>
-        <div class="module-card pending">
-          <div class="module-code">SAÉ503</div>
-          <div class="module-title">Sécurisation et supervision avancées d'un SI</div>
-          <div class="module-note"><span class="note-value pending">En attente</span></div>
-        </div>
-        <div class="module-card">
-          <div class="module-code">INF 1597</div>
-          <div class="module-title">Projet tutoré (A)</div>
-          <div class="module-note"><span class="note-value" style="color: var(--teal);">15,00</span><span style="font-size:0.75rem; color:var(--charcoal-light); margin-left:0.3rem;">/20</span></div>
-          <div class="note-bar-wrap"><div class="note-bar" style="width:75%; background:var(--teal)"></div></div>
-        </div>
-        <div class="module-card pending">
-          <div class="module-code">PORTSRI4</div>
-          <div class="module-title">Démarche portfolio</div>
+          <div class="module-code">STAGE S6</div>
+          <div class="module-title">Stage professionnel — GO-NTIC</div>
           <div class="module-note"><span class="note-value pending">En cours</span></div>
+        </div>
+        <div class="module-card pending">
+          <div class="module-code">MÉMOIRE</div>
+          <div class="module-title">Mémoire de fin de parcours</div>
+          <div class="module-note"><span class="note-value pending">En cours de rédaction</span></div>
         </div>
       </div>
     </div>
@@ -677,46 +690,36 @@
       <div class="section-num">05</div>
       <div class="section-title-block">
         <div class="sub">Analyse académique</div>
-        <h2>Analyse détaillée par unité d'enseignement</h2>
+        <h2>Analyse détaillée par UE et SAÉ</h2>
       </div>
     </div>
     <div class="divider"></div>
 
-    <!-- 5.1 -->
-    <h3 style="font-family:'Playfair Display',serif; font-size:1.2rem; color:var(--charcoal); margin-bottom:1rem; padding-bottom:0.5rem; border-bottom:1px solid var(--sand-dark);">5.1 — UE Spécialité : Sécurité des réseaux et réseaux mobiles</h3>
+    <h3 style="font-family:'Playfair Display',serif; font-size:1.2rem; color:var(--charcoal); margin-bottom:1rem; padding-bottom:0.5rem; border-bottom:1px solid var(--sand-dark);">5.1 — SAÉ : Sécurité opérationnelle et méthodologie</h3>
 
-    <p><strong>INF 1595 — CCNA4 :</strong> Ce module constitue la continuité logique des niveaux CCNA précédents. Il couvre les technologies WAN, le routage dynamique avancé (OSPF multi-zone), la qualité de service (QoS) et les réseaux définis par logiciel (SDN). Le concept de SDN m'a particulièrement fasciné : découpler le plan de contrôle du plan de données, centraliser l'intelligence réseau dans un contrôleur logiciel et rendre l'infrastructure programmable via des API représente une révolution dans la conception des réseaux modernes.</p>
+    <p><strong>SAÉ — Réponse à un incident :</strong> Ce module aborde la démarche de gestion d'incident de sécurité, depuis la détection jusqu'à la remédiation : qualification de l'incident, containment, éradication, retour à la normale et retour d'expérience (post-mortem). [À COMPLÉTER : préciser le scénario d'incident traité, les outils mobilisés, le rendu attendu.]</p>
 
-    <p><strong>INF 1527 — Sécurité et performance (12,30/20) :</strong> Ce module a couvert les mécanismes de filtrage via ACL, la mise en place de pare-feux, les technologies VPN (IPSec et SSL/TLS), ainsi que les mécanismes de détection et prévention d'intrusion (IDS/IPS). Les attaques classiques ciblant les réseaux — DoS/DDoS, man-in-the-middle, spoofing ARP — y ont été analysées avec leurs contre-mesures. La note reflète une maîtrise correcte des concepts fondamentaux, avec une lacune identifiée sur l'optimisation des performances réseau en contexte de forte charge.</p>
+    <p><strong>SAÉ — Réagir face à une cyber-attaque :</strong> Ce module met l'accent sur la capacité à identifier une attaque en cours et à structurer une réponse adaptée — isolement des systèmes compromis, communication de crise, coordination des parties prenantes. [À COMPLÉTER : décrire le cas pratique ou l'exercice de simulation réalisé.]</p>
 
-    <p><strong>INF 1526 — Systèmes radio mobiles (12,00/20) et Réseaux 4G/LTE (10,60/20) :</strong> Ces modules m'ont introduit à un territoire nouveau : les fondements de la propagation des ondes radio, les techniques de modulation (QPSK, QAM), le multiplexage (FDMA, TDMA, CDMA) et l'architecture EPC de la 4G (MME, SGW, PGW, HSS). La note de 10,60 en 4G/LTE est un signal clair : la densité terminologique et la complexité des interfaces entre les nœuds du cœur de réseau mobile restent un axe de travail prioritaire.</p>
+    <p><strong>SAÉ — Réaliser une veille technologique :</strong> Ce module prolonge une pratique déjà engagée les semestres précédents : suivi structuré de sources techniques (CVE, publications spécialisées, flux RSS), synthèse et restitution des tendances observées dans le domaine de la cybersécurité. [À COMPLÉTER : préciser le périmètre de veille choisi pour ce semestre.]</p>
 
-    <!-- 5.2 -->
-    <h3 style="font-family:'Playfair Display',serif; font-size:1.2rem; color:var(--charcoal); margin: 2rem 0 1rem; padding-bottom:0.5rem; border-bottom:1px solid var(--sand-dark);">5.2 — UE Complémentaire : Administration système et sécurité</h3>
+    <p><strong>SAÉ — Méthodologie de rédaction de mémoire pro (Parties I et II) :</strong> Ces deux volets accompagnent directement la rédaction du mémoire de fin de parcours : structuration du plan, méthodologie de recherche documentaire, gestion bibliographique avec <strong>Zotero</strong>, normes de citation et de mise en forme académique. Ce module est directement mobilisé dans le travail présenté en section 7 de ce portfolio.</p>
 
-    <p><strong>INF1 522 — Administration Windows Server (16,00/20) :</strong> Ce module a couvert l'installation de Windows Server 2019/2022, la mise en place d'Active Directory (AD DS), la gestion des utilisateurs et Unités d'Organisation, le déploiement de politiques de groupe (GPO), ainsi que la configuration des services DNS, DHCP et DFS. La note de 16 est le fruit d'un investissement personnel important, incluant la création à domicile de labs complets avec contrôleur de domaine, serveur DHCP/DNS et plusieurs postes clients.</p>
+    <h3 style="font-family:'Playfair Display',serif; font-size:1.2rem; color:var(--charcoal); margin: 2rem 0 1rem; padding-bottom:0.5rem; border-bottom:1px solid var(--sand-dark);">5.2 — UE : Enseignements transversaux et professionnalisants</h3>
 
-    <p><strong>INF 1525 — Bases de la sécurité informatique (16,90/20) :</strong> Ce module a abordé les grandes familles de menaces (malwares, attaques réseau, ingénierie sociale), les approches de défense en profondeur, la gestion des identités (IAM) et les audits de sécurité. Cette note, dont je suis le plus fier, reflète un intérêt authentique renforcé par une auto-formation intensive sur des plateformes comme <strong>TryHackMe</strong>.</p>
+    <p><strong>Initiation à l'entrepreneuriat :</strong> Ce module introduit les fondamentaux de la démarche entrepreneuriale — identification d'une opportunité, construction d'un modèle économique, étude de marché simplifiée. [À COMPLÉTER : mentionner un projet ou une idée éventuellement développée dans ce cadre.]</p>
 
-    <p><strong>INF 1525 — Cryptographie (11,00/20) :</strong> Ce module a mis en lumière une limite actuelle : les mathématiques appliquées à la cryptographie. Les fondements du chiffrement symétrique (AES, DES), asymétrique (RSA, ECC), des fonctions de hachage (SHA-2, SHA-3) et de la PKI ont été abordés. La maîtrise profonde des mathématiques sous-jacentes reste un chantier ouvert.</p>
+    <p><strong>Propriété intellectuelle :</strong> Ce module couvre les régimes de protection applicables aux créations informatiques — droit d'auteur sur les logiciels, brevets, marques, licences open source — avec une attention particulière aux enjeux propres au secteur numérique.</p>
 
-    <p><strong>3INF 1595 — Vulnérabilités web (17,00/20) :</strong> Module le plus révélateur du semestre. Suivant le référentiel OWASP, j'ai travaillé en profondeur sur les injections SQL, les failles XSS, les vulnérabilités CSRF et IDOR. Les travaux pratiques sur <strong>DVWA</strong> et <strong>WebGoat</strong> m'ont permis de passer du statut de spectateur à celui de praticien, en exploitant moi-même des failles dans un cadre légal et éthique.</p>
+    <p><strong>Culture d'entreprise :</strong> Ce module traite des codes, des usages et du fonctionnement interne d'une organisation — communication professionnelle, travail en équipe, positionnement d'un stagiaire ou jeune diplômé au sein d'une structure. Il trouve un écho direct dans l'expérience vécue actuellement chez GO-NTIC.</p>
 
-    <!-- 5.3 -->
-    <h3 style="font-family:'Playfair Display',serif; font-size:1.2rem; color:var(--charcoal); margin: 2rem 0 1rem; padding-bottom:0.5rem; border-bottom:1px solid var(--sand-dark);">5.3 — SAÉ : Situations d'Apprentissage et d'Évaluation</h3>
+    <p><strong>Gestion :</strong> Ce module introduit les bases de la gestion d'entreprise — comptabilité générale, gestion budgétaire, indicateurs de performance — nécessaires à la compréhension du fonctionnement économique d'une structure informatique.</p>
 
-    <p><strong>SAÉ501 — Solution technique :</strong> Conception d'une architecture réseau sécurisée pour une organisation fictive, justifiant chaque choix technique : segmentation VLAN, DMZ, pare-feu, protocoles. Réalisée en binôme avec rédaction d'un dossier technique complet. La qualité de la solution et la cohérence avec le cahier des charges permettent d'anticiper une bonne note.</p>
+    <p><strong>Économie :</strong> Ce module aborde les grands mécanismes économiques généraux et leur application au secteur des technologies de l'information, notamment les dynamiques du marché numérique en Afrique de l'Ouest.</p>
 
-    <p><strong>SAÉ502 — Pilotage de projet :</strong> Planification de A à Z d'un projet informatique — parties prenantes, périmètre, découpage en tâches, estimation, gestion des risques. Outils mobilisés : diagramme de Gantt, matrice RACI, registre des risques. Cette SAÉ m'a confronté à la complexité des aspects humains et organisationnels d'un projet informatique.</p>
+    <p><strong>Droit de l'informatique :</strong> Ce module couvre le cadre juridique applicable aux activités informatiques : protection des données personnelles, responsabilité en matière de cybersécurité, contrats informatiques, cadre réglementaire togolais et régional. Ce module complète directement les compétences en sécurité acquises au Semestre 5.</p>
 
-    <p><strong>SAÉ503 — Sécurisation avancée d'un SI :</strong> Mise en place d'une politique de sécurité complète avec identification des actifs, analyse de risque (méthodologie EBIOS Risk Manager), définition des mesures techniques et organisationnelles, déploiement d'un SIEM et rédaction d'un plan de réponse aux incidents. C'est la SAÉ qui correspond le plus précisément à mon projet professionnel.</p>
-
-    <!-- 5.4 -->
-    <h3 style="font-family:'Playfair Display',serif; font-size:1.2rem; color:var(--charcoal); margin: 2rem 0 1rem; padding-bottom:0.5rem; border-bottom:1px solid var(--sand-dark);">5.4 — Projet tutoré et Démarche portfolio</h3>
-
-    <p><strong>INF 1597 — Projet tutoré (15,00/20) :</strong> Conception et implémentation d'une infrastructure réseau sécurisée pour une entreprise de taille moyenne, intégrant segmentation VLAN, filtrage du trafic, supervision et politique de sécurité documentée. Soutenance de 40 minutes devant jury. J'ai pris en charge la partie sécurité et la rédaction du document technique final. Ce projet m'a appris la gestion de la pression collective et la capacité à prioriser sous contrainte.</p>
-
-    <p><strong>PORTSRI4 — Démarche portfolio :</strong> Ce document constitue précisément la livrable principale de ce module. La rédaction m'a forcé à relire mes cours, à consulter mes notes de travaux pratiques, à mesurer le chemin parcouru et à identifier avec précision les lacunes qu'il reste à combler.</p>
+    <p>[À COMPLÉTER globalement : au fur et à mesure de la publication des notes, ajouter pour chaque module la note obtenue, une appréciation personnelle et les points forts/axes d'amélioration identifiés, comme cela avait été fait pour le Semestre 5.]</p>
   </div>
 </div>
 
@@ -726,53 +729,46 @@
     <div class="section-header">
       <div class="section-num">06</div>
       <div class="section-title-block">
-        <div class="sub">Synthèse</div>
-        <h2>Bilan des compétences acquises</h2>
+        <div class="sub">Expérience professionnelle</div>
+        <h2>Stage professionnel — GO-NTIC</h2>
       </div>
     </div>
     <div class="divider"></div>
 
-    <div class="competency-block">
-      <div class="competency-title">Sécurité des systèmes et des réseaux</div>
-      <ul class="competency-list">
-        <li>Analyse de risque et politique de sécurité (méthodologie EBIOS)</li>
-        <li>Configuration de pare-feux et de VPN IPSec/SSL sur équipements Cisco</li>
-        <li>Détection et exploitation de vulnérabilités web (SQL, XSS, CSRF, IDOR)</li>
-        <li>Cryptographie appliquée : chiffrement symétrique/asymétrique, PKI, SSL/TLS</li>
-        <li>Mise en place de systèmes de supervision et d'alertes réseau (SNMP, Nagios)</li>
-      </ul>
+    <p>Dans le cadre du Semestre 6, j'effectue actuellement un stage au sein de l'entreprise <strong>GO-NTIC</strong>, une société de prestation de services informatiques spécialisée dans l'installation et la maintenance de solutions techniques : caméras de vidéosurveillance, réseaux Wi-Fi, et objets intelligents (domotique / IoT).</p>
+
+    <div class="info-card">
+      <div class="info-row">
+        <div class="info-label">Entreprise</div>
+        <div class="info-value">GO-NTIC — prestation de services en installations informatiques</div>
+      </div>
+      <div class="info-row">
+        <div class="info-label">Secteur d'activité</div>
+        <div class="info-value">Vidéosurveillance, réseaux Wi-Fi, objets connectés / intelligents</div>
+      </div>
+      <div class="info-row">
+        <div class="info-label">Poste / Fonction</div>
+        <div class="info-value">[À COMPLÉTER : intitulé exact du poste occupé en stage]</div>
+      </div>
+      <div class="info-row">
+        <div class="info-label">Période</div>
+        <div class="info-value">[À COMPLÉTER : dates de début et de fin de stage]</div>
+      </div>
+      <div class="info-row">
+        <div class="info-label">Tuteur professionnel</div>
+        <div class="info-value">[À COMPLÉTER]</div>
+      </div>
     </div>
 
-    <div class="competency-block">
-      <div class="competency-title">Administration des systèmes d'exploitation</div>
-      <ul class="competency-list">
-        <li>Déploiement et administration d'Active Directory (Windows Server 2019/2022)</li>
-        <li>Gestion des stratégies de groupe (GPO) et des droits d'accès</li>
-        <li>Configuration des services réseau Windows : DNS, DHCP, DFS</li>
-        <li>Administration Linux : gestion des utilisateurs, services, permissions POSIX</li>
-        <li>Scripting Bash pour l'automatisation de tâches d'administration</li>
-      </ul>
-    </div>
+    <h3 style="font-family:'Playfair Display',serif; margin: 2rem 0 0.75rem; color: var(--charcoal); font-size: 1.1rem;">Missions et activités</h3>
+    <p>[À COMPLÉTER : détailler les missions concrètes réalisées — par exemple, installation et configuration de caméras IP, déploiement de points d'accès Wi-Fi, paramétrage d'équipements domotiques/IoT, interventions chez les clients, diagnostic de pannes, rédaction de comptes rendus d'intervention, etc.]</p>
 
-    <div class="competency-block">
-      <div class="competency-title">Réseaux mobiles et télécommunications</div>
-      <ul class="competency-list">
-        <li>Architecture cellulaire et itinérance dans les réseaux GSM/3G/4G</li>
-        <li>Techniques de modulation et d'accès multiple : FDMA, TDMA, CDMA, OFDMA</li>
-        <li>Architecture EPC (Evolved Packet Core) de la 4G/LTE</li>
-        <li>Compréhension des enjeux de la migration vers la 5G</li>
-      </ul>
+    <h3 style="font-family:'Playfair Display',serif; margin: 2rem 0 0.75rem; color: var(--charcoal); font-size: 1.1rem;">Apports pour ma formation</h3>
+    <p>Ce stage constitue une opportunité précieuse de confronter les compétences réseaux et sécurité acquises durant la licence à des installations réelles chez des clients. La pose et la configuration de caméras de vidéosurveillance connectées, de réseaux Wi-Fi et d'objets intelligents soulèvent des enjeux directement liés à la sécurité des systèmes d'information : segmentation du réseau domestique ou professionnel, sécurisation des accès aux flux vidéo, mise à jour du firmware des équipements IoT, et sensibilisation des clients aux bonnes pratiques.</p>
+    <div class="pull-quote">
+      « Ce stage me permet de voir, du côté client, les failles de sécurité les plus courantes sur des équipements grand public et professionnels — un terrain d'observation qui alimente directement mon mémoire. »
     </div>
-
-    <div class="competency-block">
-      <div class="competency-title">Gestion de projet et communication technique</div>
-      <ul class="competency-list">
-        <li>Rédaction de documentations techniques structurées et lisibles</li>
-        <li>Présentation orale et soutenance de projets techniques devant jury</li>
-        <li>Planification de projet : Gantt, RACI, registre des risques</li>
-        <li>Travail en équipe et gestion des contributions dans un groupe projet</li>
-      </ul>
-    </div>
+    <p>[À COMPLÉTER : ajouter une anecdote ou un cas concret rencontré en intervention, en respectant la confidentialité des clients.]</p>
   </div>
 </div>
 
@@ -781,6 +777,101 @@
   <div class="wrapper">
     <div class="section-header">
       <div class="section-num">07</div>
+      <div class="section-title-block">
+        <div class="sub">Travail de recherche</div>
+        <h2>Mémoire de fin de parcours</h2>
+      </div>
+    </div>
+    <div class="divider"></div>
+
+    <p>Le mémoire de fin de parcours constitue le principal livrable académique du Semestre 6. Sa rédaction est actuellement en cours, en parallèle du stage à GO-NTIC et des modules de méthodologie de rédaction de mémoire pro qui en encadrent la méthodologie.</p>
+
+    <div class="info-card">
+      <div class="info-row">
+        <div class="info-label">Sujet</div>
+        <div class="info-value">[À COMPLÉTER : intitulé exact du mémoire]</div>
+      </div>
+      <div class="info-row">
+        <div class="info-label">Thématique</div>
+        <div class="info-value">Automatisation de la détection d'intrusion et intégration SOC — [À AJUSTER selon l'intitulé final]</div>
+      </div>
+      <div class="info-row">
+        <div class="info-label">Directeur / encadrant</div>
+        <div class="info-value">[À COMPLÉTER]</div>
+      </div>
+      <div class="info-row">
+        <div class="info-label">Outil de gestion bibliographique</div>
+        <div class="info-value">Zotero — bibliographie vérifiée et citations conformes aux normes académiques</div>
+      </div>
+      <div class="info-row">
+        <div class="info-label">État d'avancement</div>
+        <div class="info-value">Rédaction en cours</div>
+      </div>
+    </div>
+
+    <h3 style="font-family:'Playfair Display',serif; margin: 2rem 0 0.75rem; color: var(--charcoal); font-size: 1.1rem;">Démarche méthodologique</h3>
+    <p>La rédaction s'appuie sur les enseignements du module de méthodologie de rédaction de mémoire pro, avec une gestion bibliographique structurée via Zotero, garantissant des citations vérifiées et une traçabilité rigoureuse des sources mobilisées.</p>
+    <p>[À COMPLÉTER : décrire brièvement la problématique retenue, le plan provisoire du mémoire, et l'articulation avec l'expérience de stage chez GO-NTIC.]</p>
+  </div>
+</div>
+
+<!-- SECTION 8 -->
+<div class="section" id="section8">
+  <div class="wrapper">
+    <div class="section-header">
+      <div class="section-num">08</div>
+      <div class="section-title-block">
+        <div class="sub">Synthèse</div>
+        <h2>Bilan des compétences en cours d'acquisition</h2>
+      </div>
+    </div>
+    <div class="divider"></div>
+
+    <div class="competency-block">
+      <div class="competency-title">Réponse aux incidents et gestion de crise cyber</div>
+      <ul class="competency-list">
+        <li>Démarche structurée de réponse à incident (détection, containment, remédiation)</li>
+        <li>Réaction face à une cyber-attaque en cours et coordination des mesures d'urgence</li>
+        <li>[À COMPLÉTER selon le contenu réel des SAÉ]</li>
+      </ul>
+    </div>
+
+    <div class="competency-block">
+      <div class="competency-title">Méthodologie et communication professionnelle</div>
+      <ul class="competency-list">
+        <li>Veille technologique structurée et restitution synthétique</li>
+        <li>Méthodologie de recherche et de rédaction académique (Zotero, normes de citation)</li>
+        <li>Culture d'entreprise et posture professionnelle en environnement de stage</li>
+      </ul>
+    </div>
+
+    <div class="competency-block">
+      <div class="competency-title">Environnement juridique et économique du numérique</div>
+      <ul class="competency-list">
+        <li>Cadre juridique de l'informatique : données personnelles, responsabilité, contrats</li>
+        <li>Régimes de protection de la propriété intellectuelle appliqués au logiciel</li>
+        <li>Bases de la gestion et de l'économie appliquées au secteur numérique</li>
+        <li>Fondamentaux de la démarche entrepreneuriale</li>
+      </ul>
+    </div>
+
+    <div class="competency-block">
+      <div class="competency-title">Expérience terrain — Stage GO-NTIC</div>
+      <ul class="competency-list">
+        <li>Installation et configuration d'équipements de vidéosurveillance connectés</li>
+        <li>Déploiement de réseaux Wi-Fi en environnement client</li>
+        <li>Mise en œuvre d'objets intelligents / IoT et sensibilisation aux risques associés</li>
+        <li>[À COMPLÉTER au fil du stage]</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- SECTION 9 -->
+<div class="section" id="section9">
+  <div class="wrapper">
+    <div class="section-header">
+      <div class="section-num">09</div>
       <div class="section-title-block">
         <div class="sub">Perspective professionnelle</div>
         <h2>Axes de progression et objectifs futurs</h2>
@@ -793,11 +884,10 @@
         <div class="timeline-period">Court terme · 0 – 6 mois</div>
         <div class="timeline-content">
           <ul class="competency-list" style="margin-top:0.5rem;">
-            <li>Finaliser les SAÉ 501, 502, 503 avec des dossiers et soutenances de qualité</li>
-            <li>Approfondir l'administration Linux avancée (systemd, SELinux)</li>
-            <li>Renforcer la cryptographie mathématique (RSA, courbes elliptiques)</li>
-            <li>Commencer la préparation CompTIA Security+ ou Cisco CCNA</li>
-            <li>Pratiquer régulièrement sur TryHackMe et HackTheBox</li>
+            <li>Finaliser la rédaction et soutenir le mémoire de fin de parcours</li>
+            <li>Terminer le stage à GO-NTIC dans de bonnes conditions et obtenir l'attestation correspondante</li>
+            <li>Valider l'ensemble des UE et SAÉ du Semestre 6</li>
+            <li>[À COMPLÉTER selon les priorités personnelles]</li>
           </ul>
         </div>
       </div>
@@ -806,10 +896,10 @@
         <div class="timeline-period">Moyen terme · 6 mois – 2 ans</div>
         <div class="timeline-content">
           <ul class="competency-list" style="margin-top:0.5rem;">
-            <li>Obtenir un premier poste d'administrateur réseaux/systèmes ou technicien sécurité</li>
-            <li>Passer et réussir la certification Cisco CCNA ou CompTIA Security+</li>
-            <li>Développer une expertise sur les technologies cloud (AWS ou Azure)</li>
-            <li>Explorer les technologies de virtualisation avancée (VMware vSphere, Proxmox)</li>
+            <li>Obtenir la Licence Professionnelle Systèmes et Réseaux Informatiques</li>
+            <li>Envisager une poursuite d'études en Master (sécurité des systèmes d'information / SOC)</li>
+            <li>Consolider les compétences en automatisation SOC (Wazuh, TheHive, Cortex, Suricata)</li>
+            <li>Passer une première certification professionnelle (Cisco CCNA ou CompTIA Security+)</li>
           </ul>
         </div>
       </div>
@@ -818,10 +908,9 @@
         <div class="timeline-period">Long terme · 2 – 5 ans</div>
         <div class="timeline-content">
           <ul class="competency-list" style="margin-top:0.5rem;">
-            <li>Se spécialiser en cybersécurité : CSIRT, SOC, red team ou conseil</li>
+            <li>Se spécialiser en cybersécurité : SOC, réponse à incident, ou conseil en sécurité</li>
             <li>Viser des certifications avancées : CEH, OSCP</li>
             <li>Contribuer à la formation et à la sensibilisation en cybersécurité en Afrique de l'Ouest</li>
-            <li>Envisager un master spécialisé en sécurité des systèmes d'information</li>
           </ul>
         </div>
       </div>
@@ -829,11 +918,11 @@
   </div>
 </div>
 
-<!-- SECTION 8 -->
-<div class="section" id="section8">
+<!-- SECTION 10 -->
+<div class="section" id="section10">
   <div class="wrapper">
     <div class="section-header">
-      <div class="section-num">08</div>
+      <div class="section-num">10</div>
       <div class="section-title-block">
         <div class="sub">Synthèse finale</div>
         <h2>Conclusion générale</h2>
@@ -841,17 +930,11 @@
     </div>
     <div class="divider"></div>
 
-    <p>Arriver au terme de ce portfolio, c'est mesurer l'écart entre l'étudiant que j'étais en entrant à l'ESIG et celui que je suis devenu après cinq semestres de formation intensive. Le semestre 5 a été particulièrement intense : il a exigé de jongler simultanément entre l'abstraction mathématique de la cryptographie, la précision procédurale de l'administration système, la créativité technique nécessaire aux SAÉ, et la rigueur analytique des modules de sécurité.</p>
+    <p>Le Semestre 6 clôt trois années de formation à l'ESIG Global Success. Contrairement aux semestres précédents, dominés par l'acquisition de compétences techniques en salle de cours, ce dernier semestre m'installe directement au contact du monde professionnel, à travers le stage chez GO-NTIC, et me confronte à l'exercice académique le plus exigeant de mon cursus : la rédaction d'un mémoire de fin de parcours.</p>
 
-    <div class="pull-quote">
-      « Les notes élevées en sécurité applicative (17,00) et en bases de la sécurité (16,90) reflètent un domaine dans lequel je me suis investi bien au-delà des heures de cours. »
-    </div>
+    <p>[À COMPLÉTER : une fois les notes disponibles, revenir sur cette conclusion pour dresser un bilan chiffré du semestre, comme cela a été fait pour le Semestre 5.]</p>
 
-    <p>La note plus modeste en réseaux 4G (10,60) est un signal clair que je dois continuer à travailler sur les télécommunications mobiles. Et les modules encore en attente représentent les prochaines étapes d'un travail qui n'est pas encore terminé.</p>
-
-    <p>Ce que ce semestre m'a appris, au fond, c'est que la compétence ne s'obtient pas en passant des examens — elle se construit dans la pratique, dans l'erreur, dans la correction, dans la curiosité. Je remercie chaleureusement l'ensemble du corps professoral de l'ESIG Global Success pour leur engagement pédagogique et la qualité de l'enseignement dispensé. Je remercie également mes camarades de promotion, avec qui chaque projet collaboratif a été une occasion d'apprendre autrement.</p>
-
-    <p><strong>Ce portfolio est un document vivant.</strong> Il sera mis à jour au fur et à mesure que les notes en attente seront validées, que de nouvelles compétences seront acquises, et que mon parcours professionnel prendra forme. En l'état, il représente fidèlement qui je suis en avril 2026 : un étudiant déterminé, lucide sur ses forces et ses faiblesses, et profondément motivé par l'idée de contribuer à la sécurité numérique de son pays et de son continent.</p>
+    <p><strong>Ce portfolio est un document vivant.</strong> Il sera mis à jour au fur et à mesure que les notes des modules du Semestre 6 seront publiées, que le stage chez GO-NTIC avancera, et que la rédaction du mémoire progressera vers sa soutenance finale.</p>
   </div>
 </div>
 
@@ -859,8 +942,8 @@
 <div class="signature-block">
   <div class="wrapper">
     <h3>AYAOH Essodomna Jules</h3>
-    <p><span class="signature-teal">ESIG Global Success</span> · LP Systèmes et Réseaux Informatiques, Semestre 5</p>
-    <p style="margin-top:0.4rem;">Lomé, Togo · Avril 2026</p>
+    <p><span class="signature-teal">ESIG Global Success</span> · LP Systèmes et Réseaux Informatiques, Semestre 6</p>
+    <p style="margin-top:0.4rem;">Lomé, Togo · [MOIS À COMPLÉTER] 2026</p>
   </div>
 </div>
 
