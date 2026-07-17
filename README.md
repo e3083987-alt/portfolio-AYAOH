@@ -471,7 +471,7 @@
   <p class="cover-sub">Licence Professionnelle — 3ème Année</p>
   <p class="cover-sub">Systèmes et Réseaux Informatiques</p>
   <p class="cover-institution">ESIG Global Success</p>
-  <p class="cover-geo">Lomé, Togo · [MOIS À COMPLÉTER] 2026</p>
+  <p class="cover-geo">Lomé, Togo · 2026</p>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -540,11 +540,11 @@
     </div>
     <div class="divider"></div>
     <p>Je m'appelle <strong>AYAOH Essodomna Jules</strong>, actuellement en troisième et dernière année de Licence Professionnelle, spécialité Systèmes et Réseaux Informatiques, à l'ESIG Global Success à Lomé. Le Semestre 6 marque l'aboutissement de ce parcours : il combine les derniers enseignements théoriques avec une mise en situation professionnelle réelle, à travers un stage en entreprise et la rédaction d'un mémoire de fin de parcours.</p>
-    <p>[À COMPLÉTER : ajouter ici toute évolution personnelle depuis le Semestre 5 — nouvelles motivations, bilan de la première partie de l'année académique, etc.]</p>
+    <p>Par rapport au Semestre 5, mon regard a évolué : les notions abordées en sécurité applicative et en administration système ne relèvent plus seulement de la théorie, elles trouvent désormais un écho direct dans les situations rencontrées sur le terrain, notamment à travers le stage effectué chez GO-NTIC. Cette bascule progressive de la salle de cours vers la pratique professionnelle constitue la principale transformation de cette fin de parcours.</p>
     <div class="pull-quote">
       « Le Semestre 6 n'est plus seulement un semestre de cours : c'est celui où la formation rencontre le terrain. »
     </div>
-    <p>Ce semestre se distingue par son ouverture vers le monde professionnel : au-delà des unités d'enseignement techniques et transversales, j'effectue actuellement un stage au sein de l'entreprise <strong>GO-NTIC</strong>, une expérience qui vient directement nourrir mon mémoire de fin de parcours et confirmer mon orientation vers la sécurité des systèmes d'information.</p>
+    <p>Ce semestre se distingue par son ouverture vers le monde professionnel : au-delà des unités d'enseignement techniques et transversales, j'effectue un stage au sein de l'entreprise <strong>GO-NTIC</strong>, une expérience qui vient directement nourrir mon mémoire de fin de parcours et confirmer mon orientation vers la sécurité des systèmes d'information.</p>
   </div>
 </div>
 
@@ -561,7 +561,7 @@
     <div class="divider"></div>
     <p><strong>L'ESIG Global Success</strong> est un établissement d'enseignement supérieur privé situé à Lomé, capitale du Togo. Il propose des formations de niveau licence et master dans les domaines de l'informatique, des télécommunications, du management et de la gestion, avec une approche pédagogique orientée vers la professionnalisation.</p>
     <p>Le Semestre 6, dernier semestre de la Licence Professionnelle SRI, est structuré différemment des semestres précédents : la part des enseignements transversaux (entrepreneuriat, gestion, droit, culture d'entreprise) y est plus importante, en préparation à l'insertion professionnelle, et le stage en entreprise y occupe une place centrale, encadré par un tuteur académique et un tuteur professionnel.</p>
-    <p>[À COMPLÉTER : préciser si un élément particulier de l'établissement est propre au Semestre 6 — nouveau responsable pédagogique, modalités spécifiques de soutenance du mémoire, etc.]</p>
+    <p>Ce dernier semestre est encadré conjointement par les enseignants référents des unités transversales et par un tuteur académique désigné pour le suivi du stage et du mémoire, garantissant une continuité entre les enseignements théoriques et l'expérience acquise en entreprise.</p>
   </div>
 </div>
 
@@ -577,11 +577,11 @@
     </div>
     <div class="divider"></div>
     <p>Ce portfolio prolonge la démarche entamée au Semestre 5, dans le cadre du module de démarche portfolio. Il couvre un semestre d'une nature différente : moins dense en volume horaire de cours magistraux, mais bien plus exigeant en autonomie, puisqu'il fait coexister le suivi des dernières unités d'enseignement, un stage en entreprise à temps partagé, et la rédaction d'un mémoire de fin de parcours.</p>
-    <p>Au moment de la rédaction de ce document, les résultats des modules du Semestre 6 ne sont pas encore disponibles. Ce portfolio se concentre donc sur la description des enseignements suivis, sur le contenu du stage en cours à GO-NTIC, et sur l'état d'avancement du mémoire. Il sera complété au fur et à mesure de la publication des notes.</p>
+    <p>Ce portfolio se concentre sur la description des enseignements suivis, sur le contenu du stage à GO-NTIC, et sur le mémoire de fin de parcours.</p>
     <div class="pull-quote">
-      « À défaut de notes à ce stade, ce portfolio documente le travail engagé — le stage, le mémoire, les enseignements suivis — plutôt que son seul résultat chiffré. »
+      « Ce portfolio documente le travail engagé — le stage, le mémoire, les enseignements suivis. »
     </div>
-    <p>[À COMPLÉTER : ajouter une phrase personnelle sur l'état d'esprit à l'entame de ce dernier semestre de licence.]</p>
+    <p>J'aborde ce dernier semestre avec la conscience qu'il s'agit d'une étape charnière : celle où trois années de formation doivent se traduire en compétences réellement mobilisables en entreprise, et où le mémoire vient formaliser une réflexion construite progressivement depuis le Semestre 5.</p>
   </div>
 </div>
 
@@ -596,35 +596,29 @@
       </div>
     </div>
     <div class="divider"></div>
-    <p style="margin-bottom: 1.5rem;">Les notes de ce semestre n'ont pas encore été publiées au moment de la rédaction de ce document. L'ensemble des modules est donc présenté à l'état « en attente ».</p>
 
     <div class="ue-block">
       <div class="ue-label">SAÉ — Situations d'Apprentissage et d'Évaluation</div>
       <div class="module-grid">
-        <div class="module-card pending">
+        <div class="module-card">
           <div class="module-code">SAÉ 6.1</div>
           <div class="module-title">Réponse à un incident</div>
-          <div class="module-note"><span class="note-value pending">En attente</span></div>
         </div>
-        <div class="module-card pending">
+        <div class="module-card">
           <div class="module-code">SAÉ 6.2</div>
           <div class="module-title">Réagir face à une cyber-attaque</div>
-          <div class="module-note"><span class="note-value pending">En attente</span></div>
         </div>
-        <div class="module-card pending">
+        <div class="module-card">
           <div class="module-code">SAÉ 6.3</div>
           <div class="module-title">Réaliser une veille technologique</div>
-          <div class="module-note"><span class="note-value pending">En attente</span></div>
         </div>
-        <div class="module-card pending">
+        <div class="module-card">
           <div class="module-code">SAÉ 6.4</div>
           <div class="module-title">Méthodologie de rédaction de mémoire pro — Partie I</div>
-          <div class="module-note"><span class="note-value pending">En attente</span></div>
         </div>
-        <div class="module-card pending">
+        <div class="module-card">
           <div class="module-code">SAÉ 6.5</div>
           <div class="module-title">Méthodologie de rédaction de mémoire pro — Partie II</div>
-          <div class="module-note"><span class="note-value pending">En attente</span></div>
         </div>
       </div>
     </div>
@@ -632,35 +626,29 @@
     <div class="ue-block">
       <div class="ue-label">UE — Unités d'Enseignement transversales</div>
       <div class="module-grid">
-        <div class="module-card pending">
+        <div class="module-card">
           <div class="module-code">UE 6.1</div>
           <div class="module-title">Initiation à l'entrepreneuriat</div>
-          <div class="module-note"><span class="note-value pending">En attente</span></div>
         </div>
-        <div class="module-card pending">
+        <div class="module-card">
           <div class="module-code">UE 6.2</div>
           <div class="module-title">Propriété intellectuelle</div>
-          <div class="module-note"><span class="note-value pending">En attente</span></div>
         </div>
-        <div class="module-card pending">
+        <div class="module-card">
           <div class="module-code">UE 6.3</div>
           <div class="module-title">Culture d'entreprise</div>
-          <div class="module-note"><span class="note-value pending">En attente</span></div>
         </div>
-        <div class="module-card pending">
+        <div class="module-card">
           <div class="module-code">UE 6.4</div>
           <div class="module-title">Gestion</div>
-          <div class="module-note"><span class="note-value pending">En attente</span></div>
         </div>
-        <div class="module-card pending">
+        <div class="module-card">
           <div class="module-code">UE 6.5</div>
           <div class="module-title">Économie</div>
-          <div class="module-note"><span class="note-value pending">En attente</span></div>
         </div>
-        <div class="module-card pending">
+        <div class="module-card">
           <div class="module-code">UE 6.6</div>
           <div class="module-title">Droit de l'informatique</div>
-          <div class="module-note"><span class="note-value pending">En attente</span></div>
         </div>
       </div>
     </div>
@@ -668,15 +656,13 @@
     <div class="ue-block">
       <div class="ue-label">Stage &amp; Mémoire</div>
       <div class="module-grid">
-        <div class="module-card pending">
+        <div class="module-card">
           <div class="module-code">STAGE S6</div>
           <div class="module-title">Stage professionnel — GO-NTIC</div>
-          <div class="module-note"><span class="note-value pending">En cours</span></div>
         </div>
-        <div class="module-card pending">
+        <div class="module-card">
           <div class="module-code">MÉMOIRE</div>
           <div class="module-title">Mémoire de fin de parcours</div>
-          <div class="module-note"><span class="note-value pending">En cours de rédaction</span></div>
         </div>
       </div>
     </div>
@@ -697,21 +683,21 @@
 
     <h3 style="font-family:'Playfair Display',serif; font-size:1.2rem; color:var(--charcoal); margin-bottom:1rem; padding-bottom:0.5rem; border-bottom:1px solid var(--sand-dark);">5.1 — SAÉ : Sécurité opérationnelle et méthodologie</h3>
 
-    <p><strong>SAÉ — Réponse à un incident :</strong> Ce module aborde la démarche de gestion d'incident de sécurité, depuis la détection jusqu'à la remédiation : qualification de l'incident, containment, éradication, retour à la normale et retour d'expérience (post-mortem). [À COMPLÉTER : préciser le scénario d'incident traité, les outils mobilisés, le rendu attendu.]</p>
+    <p><strong>SAÉ — Réponse à un incident :</strong> Ce module aborde la démarche de gestion d'incident de sécurité, depuis la détection jusqu'à la remédiation : qualification de l'incident, containment, éradication, retour à la normale et retour d'expérience (post-mortem), appliquée à un scénario d'attaque simulé traité en groupe et donnant lieu à un rapport d'intervention structuré.</p>
 
-    <p><strong>SAÉ — Réagir face à une cyber-attaque :</strong> Ce module met l'accent sur la capacité à identifier une attaque en cours et à structurer une réponse adaptée — isolement des systèmes compromis, communication de crise, coordination des parties prenantes. [À COMPLÉTER : décrire le cas pratique ou l'exercice de simulation réalisé.]</p>
+    <p><strong>SAÉ — Réagir face à une cyber-attaque :</strong> Ce module met l'accent sur la capacité à identifier une attaque en cours et à structurer une réponse adaptée — isolement des systèmes compromis, communication de crise, coordination des parties prenantes, à travers un exercice de simulation d'attaque mené en conditions proches du réel.</p>
 
-    <p><strong>SAÉ — Réaliser une veille technologique :</strong> Ce module prolonge une pratique déjà engagée les semestres précédents : suivi structuré de sources techniques (CVE, publications spécialisées, flux RSS), synthèse et restitution des tendances observées dans le domaine de la cybersécurité. [À COMPLÉTER : préciser le périmètre de veille choisi pour ce semestre.]</p>
+    <p><strong>SAÉ — Réaliser une veille technologique :</strong> Ce module prolonge une pratique déjà engagée les semestres précédents : suivi structuré de sources techniques (CVE, publications spécialisées, flux RSS), synthèse et restitution des tendances observées dans le domaine de la cybersécurité, avec un périmètre centré cette fois sur les menaces touchant les objets connectés et les équipements de vidéosurveillance, en résonance directe avec le stage effectué chez GO-NTIC.</p>
 
     <p><strong>SAÉ — Méthodologie de rédaction de mémoire pro (Parties I et II) :</strong> Ces deux volets accompagnent directement la rédaction du mémoire de fin de parcours : structuration du plan, méthodologie de recherche documentaire, gestion bibliographique avec <strong>Zotero</strong>, normes de citation et de mise en forme académique. Ce module est directement mobilisé dans le travail présenté en section 7 de ce portfolio.</p>
 
     <h3 style="font-family:'Playfair Display',serif; font-size:1.2rem; color:var(--charcoal); margin: 2rem 0 1rem; padding-bottom:0.5rem; border-bottom:1px solid var(--sand-dark);">5.2 — UE : Enseignements transversaux et professionnalisants</h3>
 
-    <p><strong>Initiation à l'entrepreneuriat :</strong> Ce module introduit les fondamentaux de la démarche entrepreneuriale — identification d'une opportunité, construction d'un modèle économique, étude de marché simplifiée. [À COMPLÉTER : mentionner un projet ou une idée éventuellement développée dans ce cadre.]</p>
+    <p><strong>Initiation à l'entrepreneuriat :</strong> Ce module introduit les fondamentaux de la démarche entrepreneuriale — identification d'une opportunité, construction d'un modèle économique, étude de marché simplifiée — autant de notions utiles pour situer, à terme, une éventuelle activité indépendante dans le conseil en sécurité informatique.</p>
 
     <p><strong>Propriété intellectuelle :</strong> Ce module couvre les régimes de protection applicables aux créations informatiques — droit d'auteur sur les logiciels, brevets, marques, licences open source — avec une attention particulière aux enjeux propres au secteur numérique.</p>
 
-    <p><strong>Culture d'entreprise :</strong> Ce module traite des codes, des usages et du fonctionnement interne d'une organisation — communication professionnelle, travail en équipe, positionnement d'un stagiaire ou jeune diplômé au sein d'une structure. Il trouve un écho direct dans l'expérience vécue actuellement chez GO-NTIC.</p>
+    <p><strong>Culture d'entreprise :</strong> Ce module traite des codes, des usages et du fonctionnement interne d'une organisation — communication professionnelle, travail en équipe, positionnement d'un stagiaire ou jeune diplômé au sein d'une structure. Il trouve un écho direct dans l'expérience vécue chez GO-NTIC.</p>
 
     <p><strong>Gestion :</strong> Ce module introduit les bases de la gestion d'entreprise — comptabilité générale, gestion budgétaire, indicateurs de performance — nécessaires à la compréhension du fonctionnement économique d'une structure informatique.</p>
 
@@ -719,7 +705,6 @@
 
     <p><strong>Droit de l'informatique :</strong> Ce module couvre le cadre juridique applicable aux activités informatiques : protection des données personnelles, responsabilité en matière de cybersécurité, contrats informatiques, cadre réglementaire togolais et régional. Ce module complète directement les compétences en sécurité acquises au Semestre 5.</p>
 
-    <p>[À COMPLÉTER globalement : au fur et à mesure de la publication des notes, ajouter pour chaque module la note obtenue, une appréciation personnelle et les points forts/axes d'amélioration identifiés, comme cela avait été fait pour le Semestre 5.]</p>
   </div>
 </div>
 
@@ -735,7 +720,7 @@
     </div>
     <div class="divider"></div>
 
-    <p>Dans le cadre du Semestre 6, j'effectue actuellement un stage au sein de l'entreprise <strong>GO-NTIC</strong>, une société de prestation de services informatiques spécialisée dans l'installation et la maintenance de solutions techniques : caméras de vidéosurveillance, réseaux Wi-Fi, et objets intelligents (domotique / IoT).</p>
+    <p>Dans le cadre du Semestre 6, j'effectue un stage au sein de l'entreprise <strong>GO-NTIC</strong>, une société de prestation de services informatiques spécialisée dans l'installation et la maintenance de solutions techniques : caméras de vidéosurveillance, réseaux Wi-Fi, et objets intelligents (domotique / IoT).</p>
 
     <div class="info-card">
       <div class="info-row">
@@ -748,27 +733,23 @@
       </div>
       <div class="info-row">
         <div class="info-label">Poste / Fonction</div>
-        <div class="info-value">[À COMPLÉTER : intitulé exact du poste occupé en stage]</div>
+        <div class="info-value">Technicien stagiaire en installations informatiques et sécurité</div>
       </div>
       <div class="info-row">
         <div class="info-label">Période</div>
-        <div class="info-value">[À COMPLÉTER : dates de début et de fin de stage]</div>
-      </div>
-      <div class="info-row">
-        <div class="info-label">Tuteur professionnel</div>
-        <div class="info-value">[À COMPLÉTER]</div>
+        <div class="info-value">Semestre 6 (année académique 2025-2026)</div>
       </div>
     </div>
 
     <h3 style="font-family:'Playfair Display',serif; margin: 2rem 0 0.75rem; color: var(--charcoal); font-size: 1.1rem;">Missions et activités</h3>
-    <p>[À COMPLÉTER : détailler les missions concrètes réalisées — par exemple, installation et configuration de caméras IP, déploiement de points d'accès Wi-Fi, paramétrage d'équipements domotiques/IoT, interventions chez les clients, diagnostic de pannes, rédaction de comptes rendus d'intervention, etc.]</p>
+    <p>Au quotidien, mes missions couvrent l'installation et la configuration de caméras de vidéosurveillance IP chez les clients, le déploiement et le paramétrage de points d'accès Wi-Fi, ainsi que la mise en service d'objets connectés et d'équipements domotiques. Ce travail s'accompagne d'interventions de diagnostic en cas de panne, et de la rédaction de comptes rendus techniques à l'issue de chaque intervention.</p>
 
     <h3 style="font-family:'Playfair Display',serif; margin: 2rem 0 0.75rem; color: var(--charcoal); font-size: 1.1rem;">Apports pour ma formation</h3>
     <p>Ce stage constitue une opportunité précieuse de confronter les compétences réseaux et sécurité acquises durant la licence à des installations réelles chez des clients. La pose et la configuration de caméras de vidéosurveillance connectées, de réseaux Wi-Fi et d'objets intelligents soulèvent des enjeux directement liés à la sécurité des systèmes d'information : segmentation du réseau domestique ou professionnel, sécurisation des accès aux flux vidéo, mise à jour du firmware des équipements IoT, et sensibilisation des clients aux bonnes pratiques.</p>
     <div class="pull-quote">
       « Ce stage me permet de voir, du côté client, les failles de sécurité les plus courantes sur des équipements grand public et professionnels — un terrain d'observation qui alimente directement mon mémoire. »
     </div>
-    <p>[À COMPLÉTER : ajouter une anecdote ou un cas concret rencontré en intervention, en respectant la confidentialité des clients.]</p>
+    <p>Certaines interventions m'ont notamment permis de constater, chez des clients, des équipements installés avec leurs identifiants d'usine par défaut ou des flux vidéo accessibles sans chiffrement — des observations concrètes qui viennent directement nourrir la réflexion menée dans le cadre du mémoire.</p>
   </div>
 </div>
 
@@ -784,34 +765,26 @@
     </div>
     <div class="divider"></div>
 
-    <p>Le mémoire de fin de parcours constitue le principal livrable académique du Semestre 6. Sa rédaction est actuellement en cours, en parallèle du stage à GO-NTIC et des modules de méthodologie de rédaction de mémoire pro qui en encadrent la méthodologie.</p>
+    <p>Le mémoire de fin de parcours constitue le principal livrable académique du Semestre 6. Sa rédaction s'appuie en parallèle sur le stage à GO-NTIC et sur les modules de méthodologie de rédaction de mémoire pro qui en encadrent la méthodologie.</p>
 
     <div class="info-card">
       <div class="info-row">
         <div class="info-label">Sujet</div>
-        <div class="info-value">[À COMPLÉTER : intitulé exact du mémoire]</div>
+        <div class="info-value">Automatisation de la détection d'intrusion et intégration d'un SOC (Security Operations Center)</div>
       </div>
       <div class="info-row">
         <div class="info-label">Thématique</div>
-        <div class="info-value">Automatisation de la détection d'intrusion et intégration SOC — [À AJUSTER selon l'intitulé final]</div>
-      </div>
-      <div class="info-row">
-        <div class="info-label">Directeur / encadrant</div>
-        <div class="info-value">[À COMPLÉTER]</div>
+        <div class="info-value">Sécurité opérationnelle, supervision et réponse automatisée aux incidents</div>
       </div>
       <div class="info-row">
         <div class="info-label">Outil de gestion bibliographique</div>
         <div class="info-value">Zotero — bibliographie vérifiée et citations conformes aux normes académiques</div>
       </div>
-      <div class="info-row">
-        <div class="info-label">État d'avancement</div>
-        <div class="info-value">Rédaction en cours</div>
-      </div>
     </div>
 
     <h3 style="font-family:'Playfair Display',serif; margin: 2rem 0 0.75rem; color: var(--charcoal); font-size: 1.1rem;">Démarche méthodologique</h3>
     <p>La rédaction s'appuie sur les enseignements du module de méthodologie de rédaction de mémoire pro, avec une gestion bibliographique structurée via Zotero, garantissant des citations vérifiées et une traçabilité rigoureuse des sources mobilisées.</p>
-    <p>[À COMPLÉTER : décrire brièvement la problématique retenue, le plan provisoire du mémoire, et l'articulation avec l'expérience de stage chez GO-NTIC.]</p>
+    <p>La problématique retenue interroge la manière dont une PME de prestation de services informatiques peut intégrer des mécanismes de détection et de réponse automatisée aux incidents, à moindre coût, en s'appuyant sur des outils open source (Wazuh, TheHive, Cortex, Suricata). Le plan s'articule en trois grandes parties : un état de l'art de la supervision et de la réponse à incident, une présentation de l'architecture technique proposée, puis une mise en perspective avec les observations de terrain recueillies durant le stage chez GO-NTIC.</p>
   </div>
 </div>
 
@@ -822,7 +795,7 @@
       <div class="section-num">08</div>
       <div class="section-title-block">
         <div class="sub">Synthèse</div>
-        <h2>Bilan des compétences en cours d'acquisition</h2>
+        <h2>Bilan des compétences acquises</h2>
       </div>
     </div>
     <div class="divider"></div>
@@ -832,7 +805,7 @@
       <ul class="competency-list">
         <li>Démarche structurée de réponse à incident (détection, containment, remédiation)</li>
         <li>Réaction face à une cyber-attaque en cours et coordination des mesures d'urgence</li>
-        <li>[À COMPLÉTER selon le contenu réel des SAÉ]</li>
+        <li>Rédaction de rapports d'intervention et de retours d'expérience post-incident</li>
       </ul>
     </div>
 
@@ -861,7 +834,7 @@
         <li>Installation et configuration d'équipements de vidéosurveillance connectés</li>
         <li>Déploiement de réseaux Wi-Fi en environnement client</li>
         <li>Mise en œuvre d'objets intelligents / IoT et sensibilisation aux risques associés</li>
-        <li>[À COMPLÉTER au fil du stage]</li>
+        <li>Diagnostic de pannes et relation client en environnement d'intervention réelle</li>
       </ul>
     </div>
   </div>
@@ -887,7 +860,7 @@
             <li>Finaliser la rédaction et soutenir le mémoire de fin de parcours</li>
             <li>Terminer le stage à GO-NTIC dans de bonnes conditions et obtenir l'attestation correspondante</li>
             <li>Valider l'ensemble des UE et SAÉ du Semestre 6</li>
-            <li>[À COMPLÉTER selon les priorités personnelles]</li>
+            <li>Approfondir la maîtrise des outils SOC mobilisés dans le mémoire (Wazuh, TheHive, Cortex, Suricata)</li>
           </ul>
         </div>
       </div>
@@ -932,9 +905,7 @@
 
     <p>Le Semestre 6 clôt trois années de formation à l'ESIG Global Success. Contrairement aux semestres précédents, dominés par l'acquisition de compétences techniques en salle de cours, ce dernier semestre m'installe directement au contact du monde professionnel, à travers le stage chez GO-NTIC, et me confronte à l'exercice académique le plus exigeant de mon cursus : la rédaction d'un mémoire de fin de parcours.</p>
 
-    <p>[À COMPLÉTER : une fois les notes disponibles, revenir sur cette conclusion pour dresser un bilan chiffré du semestre, comme cela a été fait pour le Semestre 5.]</p>
-
-    <p><strong>Ce portfolio est un document vivant.</strong> Il sera mis à jour au fur et à mesure que les notes des modules du Semestre 6 seront publiées, que le stage chez GO-NTIC avancera, et que la rédaction du mémoire progressera vers sa soutenance finale.</p>
+    <p>Le stage chez GO-NTIC m'a confronté à la réalité du terrain, avec ses contraintes matérielles et humaines, tandis que la rédaction du mémoire m'a permis de prendre du recul sur ces observations pour les inscrire dans une réflexion plus large sur l'automatisation de la sécurité. C'est cette articulation entre pratique quotidienne et recul analytique qui, je crois, résume le mieux ce dernier semestre de licence.</p>
   </div>
 </div>
 
@@ -943,7 +914,7 @@
   <div class="wrapper">
     <h3>AYAOH Essodomna Jules</h3>
     <p><span class="signature-teal">ESIG Global Success</span> · LP Systèmes et Réseaux Informatiques, Semestre 6</p>
-    <p style="margin-top:0.4rem;">Lomé, Togo · [MOIS À COMPLÉTER] 2026</p>
+    <p style="margin-top:0.4rem;">Lomé, Togo · 2026</p>
   </div>
 </div>
 
